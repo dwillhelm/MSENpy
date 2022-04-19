@@ -6,6 +6,15 @@
 @Author  :   Daniel W 
 @Version :   1.0
 @Contact :   willhelmd@tamu.edu
+
+Description: 
+    A charge analysis class. Can calculate the elec dipole, ionic dipole, total dipole of a 2D material or 2D vdW bilayer (i.e. dipole along z-axis).
+    *Note that the cell should not be periodic in the z-direction, i.e. with a large z-direction vacuum (to avoid cell image interactions). This is the 
+    typical protocol for DFT calculations on 2D materials.  
+    
+    In addition, can determine the charge center of cell for use in dipole correction in VASP calculations. 
+    Pass a pymatgen Vasprun, Chgcar, and Potcar class object as inputs (see other @classmethods for alternate inputs) 
+    
 '''
 import os
 import argparse
