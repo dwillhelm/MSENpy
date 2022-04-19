@@ -1,2 +1,3 @@
-# msen_tools
-Python helper functions/classes for material informatics, DFT, 2D materials, vdW heterostructures, etc
+# PROJECT TITLE
+A collection of python scripts, modules, classes, functions, etc. that I've built and collected here. This repo is not a package, it just a place to save and share the code. 
+
